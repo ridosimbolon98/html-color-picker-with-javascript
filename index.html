@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Suwit Jawa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="shortcut icon" href="logo2.png">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><img src="logo2.png" class="logo"> RidoDev</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="rgb.html" class="nav-link">HTML Color RGB</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Game Suwit Jawa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Judul -->
+    <section id="judul">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Suwit Jawa</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="game">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="area-komputer mb-5 mt-2">
+                        <img src="img/tangan.png" class="img-komputer">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <span id="score-komputer" class="score mr-5">0</span>
+                            <span class="info"></span>
+                            <span id="score-player" class="score ml-5">0</span>
+                        </div>
+                    </div>
+                    <div class="row area-player m-5">
+                        <div class="col-sm-4">
+                            <img src="img/gajah.png" class="gajah">
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/orang.png" class="orang">
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/semut.png" class="semut">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="aturan">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center"> 
+                    <p>*NB: Gambar pertama yang terletak paling atas adalah komputer, dan akan secara random memilih perlakuannya.
+                    <br>Tiga buah gambar paling bawah adalah kondisi pilihan player.<br>
+                    Jika player berhasil merebut 5 score pertama maka player menang dan permainan direset kembali, begitu juga sebaliknya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="media">
+        <footer class="footer bg-dark text-center text-light">
+            <div class="container pt-3">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Ikuti Saya di Media Sosial Berikut</p>
+                    </div>   
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 pb-3">
+                        <a href="https://www.instagram.com/marthupa.simbolon/" target="_blank"><i class="fa fa-instagram text-white pr-5"></i></a>
+                        <a href="https://www.facebook.com/rido.simbolon.54?ref=bookmarks" target="_blank"><i class="fa fa-facebook text-white pr-5"></i></a>
+                        <a href="https://twitter.com/MartupaSimbolon?s=06" target="_blank"><i class="fa fa-twitter text-white"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=6285361872032&text=Hallo%20User" target="_blank"><i class="fa fa-whatsapp text-white pl-5"></i></a>
+                        <a href="mailto:ridosimbolon98@gmail.com" target="_blank"><i class="fa fa-envelope text-white pl-5"></i></a>
+                    </div>   
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Developed by Rido Martupa &copy; 2019</p>
+                    </div>   
+                </div>
+            </div>
+        </footer>
+    </section>
+
+<script src="suwit.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

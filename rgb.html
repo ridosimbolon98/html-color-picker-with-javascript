@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kode RGB Warna HTML</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+
+	<link rel="shortcut icon" href="logo2.png">
+
+	<style type="text/css">
+		html, body {
+			height: 100%;
+		}
+
+		body {
+			text-align: center;
+			font-family: cursive;
+			font-family: 'Audiowide', cursive;
+		}
+
+		.btn {
+			border-radius: 50px;
+		}
+
+
+		.kotak {
+			width: 25px;
+			height: 25px;
+			margin: 10px auto;
+			border-radius: 50%;
+		}
+
+		.rgbBar {
+			width: 25%;
+			margin: 15px auto;
+			border-radius: 50px;
+		}
+
+		.merah {background-color: red;}
+		.hijau {background-color: green;}
+		.biru {background-color: blue;}
+
+		.logo {
+		    height: 5vh;
+		    border-radius: 50%;
+		}
+
+	</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"><img src="logo2.png" class="logo"> RidoDev</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="rgb.html" class="nav-link">HTML Color Picker</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Game Suwit Jawa</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+	<section class="bg-secondary text-light p-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">	
+					<h3 class="">Kode RGB Warna HTML</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">	
+				<p class="pt-2">Create By : Rido Martupa Simbolon</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">	
+				<button id="acakWarna" class="btn btn-success" type="button">Acak Warna</button><br>
+				<div class="p-2 rgbBar bg-light">RGB(255,255,255)</div>
+				<small>*NB: Gerakkan mouse untuk mencari warna sesuai keinginan anda</small>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<section class="mb-3">
+	  <h3>Slider Warna</h3>
+	  <div class="container">
+	  	<div class="row">
+	  	  <div class="col-sm-12">
+			  <div class="kotak merah"></div>
+			  <input class="range-field w-25" id="red" type="range" name="sMerah" min="1" max="255"> R = <span id="r">255</span>
+	  	  </div>
+	  	</div>
+	  </div>
+
+	  <div class="container">
+	  	<div class="row">
+	  	  <div class="col-sm-12">
+			  <div class="kotak hijau"></div>
+			  <input class="range-field w-25"  id="green" type="range" name="sHijau" min="1" max="255"> G = <span id="g">255</span>
+	  	  </div>
+	  	</div>
+	  </div>
+
+	  <div class="container">
+	  	<div class="row">
+	  	  <div class="col-sm-12">
+			  <div class="kotak biru"></div>
+			  <input class="range-field w-25"  id="blue" type="range" name="sBiru" min="1" max="255"> B = <span id="b">255</span><br>
+	  	  </div>
+	  	</div>
+	  </div>
+	</section>
+
+<footer class="footer bg-dark text-light pt-3">
+	<div>
+		<p>Kunjungi saya di :</p>
+	</div>
+	<div class="">
+		<a class="pr-5" href="https://www.instagram.com/marthupa.simbolon/" target="_blank">
+			<i class="fa fa-instagram text-light"></i>
+		</a>
+		<a class="pr-5" href="https://www.facebook.com/rido.simbolon.54?ref=bookmarks" target="_blank">
+			<i class="fa fa-facebook text-light"></i>
+		</a>
+		<a class="pr-5" href="https://twitter.com/MartupaSimbolon?s=06" target="_blank">
+			<i class="fa fa-twitter text-light"></i>
+		</a>
+		<a class="pr-5" href="mailto:ridosimbolon98@gmail.com" target="_blank">
+			<i class="fa fa-envelope text-light"></i>
+		</a>
+		<a href="https://api.whatsapp.com/send?phone=6285361872032&text=Hallo%20User" target="_blank">
+			<i class="fa fa-whatsapp text-light"></i>
+		</a>
+	</div>
+	<div class="p-3">
+		<p>copyright &copy; 2019 ~ Rido Martupa</p>
+	</div>
+</footer>
+
+
+<script src="script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
